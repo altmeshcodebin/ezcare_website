@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import Slider from "react-slick";
 
 // Import Images
@@ -42,12 +41,12 @@ class testimonialSection extends Component{
 								<div className="thumb-wraper">
 									<img className="bg-img" src={testShape} alt=""/>
 									<ul>
-										<li data-member="1"><Link to="#"><img src={testPic1} alt=""/></Link></li>
-										<li data-member="2"><Link to="#"><img src={testPic2} alt=""/></Link></li>
-										<li data-member="3"><Link to="#"><img src={testPic3} alt=""/></Link></li>
-										<li data-member="4"><Link to="#"><img src={testPic4} alt=""/></Link></li>
-										<li data-member="5"><Link to="#"><img src={testPic5} alt=""/></Link></li>
-										<li data-member="6"><Link to="#"><img src={testPic6} alt=""/></Link></li>
+										<li data-member="1"><a href="#"><img src={testPic1} alt=""/></a></li>
+										<li data-member="2"><a href="#"><img src={testPic2} alt=""/></a></li>
+										<li data-member="3"><a href="#"><img src={testPic3} alt=""/></a></li>
+										<li data-member="4"><a href="#"><img src={testPic4} alt=""/></a></li>
+										<li data-member="5"><a href="#"><img src={testPic5} alt=""/></a></li>
+										<li data-member="6"><a href="#"><img src={testPic6} alt=""/></a></li>
 									</ul>
 								</div>
 							</div>

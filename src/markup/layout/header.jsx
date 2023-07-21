@@ -1,5 +1,4 @@
 import React, { useState} from 'react';
-import { Link } from 'react-router-dom';
 import Sticky from 'react-stickynode';
 
 // Images
@@ -25,7 +24,7 @@ const Header = () => {
 				<div className="menu-bar clearfix">
 					<div className="container-fluid clearfix">
 						<div className="menu-logo logo-dark">
-							<Link to="/"><img className='footer-logo-img' src={logo} alt=""/></Link>
+							<a href="/"><img className='footer-logo-img' src={logo} alt=""/></a>
 						</div>
 						
 						<button className={`navbar-toggler collapsed menuicon justify-content-end ${ isMenuOpen ? 'active' : '' }`}
@@ -44,13 +43,13 @@ const Header = () => {
 						<div className="secondary-menu">
 							<ul>
 								<li className="num-bx"><a className="text-primary" href="tel:(+01)999888777"><i className="fas fa-phone-alt"></i> (+01) 999 888 777</a></li>
-								<li className="btn-area"><Link to="/contact-us" className="btn btn-primary shadow">CONTACT US <i className="btn-icon-bx fas fa-chevron-right"></i></Link></li>
+								<li className="btn-area"><a href="/contact-us" className="btn btn-primary shadow">CONTACT US <i className="btn-icon-bx fas fa-chevron-right"></i></a></li>
 							</ul>
 						</div>
 						
 						<div className={`menu-links navbar-collapse collapse justify-content-end show ${isMenuOpen ? 'show' : ''}`} id="menuDropdown">
 							<div className="menu-logo">
-								<Link to="/"><img src={logoWhite} alt=""/></Link>
+								<a href="/"><img src={logoWhite} alt=""/></a>
 							</div>
 							
 							<MenusItems />

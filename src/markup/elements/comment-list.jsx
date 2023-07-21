@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 // Import Images
 import testPic1 from "../../images/testimonials/pic1.jpg";
@@ -17,11 +16,11 @@ class CommentList extends Component{
 								<div className="clearfix">
 									<cite className="fn">George</cite> 
 									<span className="says">says:</span>
-									<div className="comment-meta"> <Link to="#">May 09, 2021 at 10:45 am</Link> </div>
+									<div className="comment-meta"> <a href="#">May 09, 2021 at 10:45 am</a> </div>
 								</div>
 							</div>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-							<div className="reply"> <Link to="#" className="comment-reply-link">Reply</Link> </div>
+							<div className="reply"> <a href="#" className="comment-reply-link">Reply</a> </div>
 						</div>
 						<ol className="children">
 							<li className="comment odd parent">
@@ -31,11 +30,11 @@ class CommentList extends Component{
 										<div className="clearfix">
 											<cite className="fn">Falikaz</cite> 
 											<span className="says">says:</span> 
-											<div className="comment-meta"> <Link to="#">May 09, 2021 at 10:45 am</Link></div>
+											<div className="comment-meta"> <a href="#">May 09, 2021 at 10:45 am</a></div>
 										</div>
 									</div>
 									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-									<div className="reply"> <Link to="#" className="comment-reply-link">Reply</Link></div>
+									<div className="reply"> <a href="#" className="comment-reply-link">Reply</a></div>
 								</div>
 							</li>
 						</ol>
@@ -47,11 +46,11 @@ class CommentList extends Component{
 								<div className="clearfix">
 									<cite className="fn">Sonar</cite> 
 									<span className="says">says:</span> 
-									<div className="comment-meta"> <Link to="#">May 09, 2021 at 10:45 am</Link> </div>
+									<div className="comment-meta"> <a href="#">May 09, 2021 at 10:45 am</a> </div>
 								</div>
 							</div>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-							<div className="reply"> <Link to="#" className="comment-reply-link">Reply</Link> </div>
+							<div className="reply"> <a href="#" className="comment-reply-link">Reply</a> </div>
 						</div>
 					</li>
 					<li className="comment">
@@ -61,11 +60,11 @@ class CommentList extends Component{
 								<div className="clearfix">
 									<cite className="fn">Michel</cite>
 									<span className="says">says:</span>
-									<div className="comment-meta"> <Link to="#">May 09, 2021 at 10:45 am</Link> </div>
+									<div className="comment-meta"> <a href="#">May 09, 2021 at 10:45 am</a> </div>
 								</div>
 							</div>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-							<div className="reply"> <Link to="#" className="comment-reply-link">Reply</Link> </div>
+							<div className="reply"> <a href="#" className="comment-reply-link">Reply</a> </div>
 						</div>
 					</li>
 				</ol>

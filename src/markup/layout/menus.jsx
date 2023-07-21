@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 
 const MenusItems = () => {
 	
@@ -53,19 +52,19 @@ const MenusItems = () => {
 						onClick={() => toggleSubmenu(item.id)}
 					>
 					{item.subItems ? (
-						<Link to="#">
+						<a href="#">
 							{item.name}
 							<i className={`fas fa-plus`}></i>
-						</Link>
+						</a>
 					) : (
-						<Link to={`/${item.linkName}`}>
+						<a href={`/${item.linkName}`}>
 							{item.name}
-						</Link>
+						</a>
 					)}
 					{(isMobileView || activeItem === item.id) && item.subItems && (
 						<ul className="sub-menu">
 							{item.subItems.map((subItem, index) => (
-								<li key={subItem.id}><Link to={`/${subItem.linkName}`}><span>{subItem.displayName}</span></Link></li>
+								<li key={subItem.id}><a href={`/${subItem.linkName}`}><span>{subItem.displayName}</span></a></li>
 							))}
 						</ul>
 					)}

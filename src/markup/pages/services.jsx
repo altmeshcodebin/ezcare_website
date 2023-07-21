@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import { Link } from 'react-router-dom';
 
 // Elements
 import FeatureSection3 from "../elements/feature-section3";
@@ -28,7 +27,7 @@ class Services extends Component{
 									<h1>Services</h1>
 									<nav aria-label="breadcrumb" className="breadcrumb-row">
 										<ul className="breadcrumb">
-											<li className="breadcrumb-item"><Link to="/"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg> Home</Link></li>
+											<li className="breadcrumb-item"><a href="/"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg> Home</a></li>
 											<li className="breadcrumb-item active" aria-current="page">Services</li>
 										</ul>
 									</nav>
@@ -59,7 +58,7 @@ class Services extends Component{
 										<div className="icon-content">
 											<h3 className="ttr-title">Diagnostics</h3>
 											<p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
-											<Link to="/service-detail" className="btn btn-primary light">View More</Link>
+											<a href="/service-detail" className="btn btn-primary light">View More</a>
 										</div>
 									</div>
 								</div>
@@ -79,7 +78,7 @@ class Services extends Component{
 										<div className="icon-content">
 											<h3 className="ttr-title">Treatment</h3>
 											<p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
-											<Link to="/service-detail" className="btn btn-primary light">View More</Link>
+											<a href="/service-detail" className="btn btn-primary light">View More</a>
 										</div>
 									</div>
 								</div>
@@ -99,7 +98,7 @@ class Services extends Component{
 										<div className="icon-content">
 											<h3 className="ttr-title">Surgery</h3>
 											<p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
-											<Link to="/service-detail" className="btn btn-primary light">View More</Link>
+											<a href="/service-detail" className="btn btn-primary light">View More</a>
 										</div>
 									</div>
 								</div>
@@ -119,7 +118,7 @@ class Services extends Component{
 										<div className="icon-content">
 											<h3 className="ttr-title">Emergency</h3>
 											<p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
-											<Link to="/service-detail" className="btn btn-primary light">View More</Link>
+											<a href="/service-detail" className="btn btn-primary light">View More</a>
 										</div>
 									</div>
 								</div>
@@ -136,7 +135,7 @@ class Services extends Component{
 										<div className="icon-content">
 											<h3 className="ttr-title">Vaccine</h3>
 											<p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
-											<Link to="/service-detail" className="btn btn-primary light">View More</Link>
+											<a href="/service-detail" className="btn btn-primary light">View More</a>
 										</div>
 									</div>
 								</div>
@@ -154,7 +153,7 @@ class Services extends Component{
 										<div className="icon-content">
 											<h3 className="ttr-title">Qualified Doctors</h3>
 											<p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
-											<Link to="/service-detail" className="btn btn-primary light">View More</Link>
+											<a href="/service-detail" className="btn btn-primary light">View More</a>
 										</div>
 									</div>
 								</div>

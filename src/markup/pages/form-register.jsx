@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import { Link } from 'react-router-dom';
 
 // Import Images
 import logo from "../../images/logo.png";
@@ -31,11 +30,11 @@ class FormLogin extends Component{
 											<input type="password" className="form-control" placeholder="Password"/>
 										</div>	
 										<div className="form-group">
-											<Link to="/" type="button" className="btn btn-primary w-100 radius-xl">Register Now</Link>
+											<a href="/" type="button" className="btn btn-primary w-100 radius-xl">Register Now</a>
 										</div>
 										<div className="text-center mt-40">						
 											<p className="mt-0">Already have an account?</p>
-											<Link className="btn btn-lg btn-secondary w-100" data-toggle="tab" to="/form-login">Login</Link>
+											<a className="btn btn-lg btn-secondary w-100" data-toggle="tab" href="/form-login">Login</a>
 										</div>	
 									</form>
 								</div>

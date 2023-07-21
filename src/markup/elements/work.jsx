@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 // Import Images
 import bg1 from '../../images/background/line-bg1.png';
@@ -26,7 +25,7 @@ class aboutSection extends Component{
 										<h5 className="title text-secondary mb-10">Make Appointmnet</h5>
 										<p>It is a long established fact that a reader will be distracted by the readable content of.</p>
 									</div>
-									<Link to="/booking" className="btn btn-primary light">View More <i className="btn-icon-bx fas fa-chevron-right"></i></Link>
+									<a href="/booking" className="btn btn-primary light">View More <i className="btn-icon-bx fas fa-chevron-right"></i></a>
 								</div>
 							</div>
 							<div className="col-lg-4 col-sm-6 mb-30">
@@ -36,7 +35,7 @@ class aboutSection extends Component{
 										<h5 className="title text-secondary mb-10">Take Treatment</h5>
 										<p>It is a long established fact that a reader will be distracted by the readable content of.</p>
 									</div>
-									<Link to="/services" className="btn btn-primary light">View More <i className="btn-icon-bx fas fa-chevron-right"></i></Link>
+									<a href="/services" className="btn btn-primary light">View More <i className="btn-icon-bx fas fa-chevron-right"></i></a>
 								</div>
 							</div>
 							<div className="col-lg-4 col-sm-6 mb-30">
@@ -46,7 +45,7 @@ class aboutSection extends Component{
 										<h5 className="title text-secondary mb-10">Registration</h5>
 										<p>It is a long established fact that a reader will be distracted by the readable content of.</p>
 									</div>
-									<Link to="/contact-us" className="btn btn-primary light">View More <i className="btn-icon-bx fas fa-chevron-right"></i></Link>
+									<a href="/contact-us" className="btn btn-primary light">View More <i className="btn-icon-bx fas fa-chevron-right"></i></a>
 								</div>
 							</div>
 						</div>

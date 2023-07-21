@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 class widgetTag extends Component{
 	render(){
@@ -8,15 +7,15 @@ class widgetTag extends Component{
 				<div className="widget widget_tag_cloud">
 					<h4 className="widget-title">Tags</h4>
 					<div className="tagcloud"> 
-						<Link to="#">Improvement</Link> 
-						<Link to="#">Health</Link> 
-						<Link to="#">Life</Link> 
-						<Link to="#">Covid</Link> 
-						<Link to="#">Healthy</Link> 
-						<Link to="#">Growth</Link>
-						<Link to="#">Education</Link> 
-						<Link to="#">Manage</Link> 
-						<Link to="#">General</Link>
+						<a href="#">Improvement</a> 
+						<a href="#">Health</a> 
+						<a href="#">Life</a> 
+						<a href="#">Covid</a> 
+						<a href="#">Healthy</a> 
+						<a href="#">Growth</a>
+						<a href="#">Education</a> 
+						<a href="#">Manage</a> 
+						<a href="#">General</a>
 					</div>
 				</div>
 				

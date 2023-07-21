@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import {Link} from "react-router-dom";
 
 // Import Images
 import bnrImg1 from "../../images/banner/img1.jpg";
@@ -110,12 +109,12 @@ class ContactUs extends Component {
                               <h6 className='title'>
                                 <i className='ti-id-badge'></i>Email &amp; Phone
                               </h6>
-                              <Link
-                                to='#'
+                              <a
+                                href='#'
                                 className='text-white'
                               >
                                 admin@ezcarenursingagency.com
-                              </Link>
+                              </a>
                               <p>(+1) 416-493-1793</p>
                             </div>
                           </div>

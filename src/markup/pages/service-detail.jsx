@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
 import {Accordion} from 'react-bootstrap';
 
 // Import Images
@@ -26,7 +25,7 @@ class ServiceDetail extends Component{
 									<h1>Service Details</h1>
 									<nav aria-label="breadcrumb" className="breadcrumb-row">
 										<ul className="breadcrumb">
-											<li className="breadcrumb-item"><Link to="/"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg> Home</Link></li>
+											<li className="breadcrumb-item"><a href="/"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg> Home</a></li>
 											<li className="breadcrumb-item active" aria-current="page">Service Details</li>
 										</ul>
 									</nav>
@@ -134,27 +133,27 @@ class ServiceDetail extends Component{
 									<aside className="sticky-top pb-1">
 										<div className="widget">
 											<ul className="service-menu">
-												<li className="active"><Link to="/service-detail"><span>Engine Diagnostics</span><i className="fa fa-angle-right"></i></Link></li>
-												<li><Link to="/service-detail"><span>Lube Oil and Filters</span><i className="fa fa-angle-right"></i></Link></li>
-												<li><Link to="/service-detail"><span>Belts and Hoses</span><i className="fa fa-angle-right"></i></Link></li>
-												<li><Link to="/service-detail"><span>Air Conditioning</span><i className="fa fa-angle-right"></i></Link></li>
-												<li><Link to="/service-detail"><span>Brake Repair</span><i className="fa fa-angle-right"></i></Link></li>
-												<li><Link to="/service-detail"><span>Tire and Wheel Services</span><i className="fa fa-angle-right"></i></Link></li>
+												<li className="active"><a href="/service-detail"><span>Engine Diagnostics</span><i className="fa fa-angle-right"></i></a></li>
+												<li><a href="/service-detail"><span>Lube Oil and Filters</span><i className="fa fa-angle-right"></i></a></li>
+												<li><a href="/service-detail"><span>Belts and Hoses</span><i className="fa fa-angle-right"></i></a></li>
+												<li><a href="/service-detail"><span>Air Conditioning</span><i className="fa fa-angle-right"></i></a></li>
+												<li><a href="/service-detail"><span>Brake Repair</span><i className="fa fa-angle-right"></i></a></li>
+												<li><a href="/service-detail"><span>Tire and Wheel Services</span><i className="fa fa-angle-right"></i></a></li>
 											</ul>
 										</div>
 										<div className="widget">
 											<div className="brochure-bx">
 												<h5 className="title-head">Download</h5>
-												<Link to="#" className="download-link">
+												<a href="#" className="download-link">
 													<img src={pdf} alt=""/>
 													<h5 className="title">Download our Brochures</h5>
 													<span>Download</span>
-												</Link>
-												<Link to="#" class="download-link">
+												</a>
+												<a href="#" class="download-link">
 													<img src={doc} alt=""/>
 													<h5 className="title">Our Company Details</h5>
 													<span>Download</span>
-												</Link>
+												</a>
 											</div>
 										</div>
 										

@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import {Link} from "react-router-dom";
 import Slider from "react-slick";
 
 // Import Images
@@ -45,12 +44,11 @@ class ServicesSliderSection extends Component {
                   pellentesque. Nibh turpis elementum amet amet in pharetra accumsan mi.
                 </p>
               </div>
-              <Link
-                to='/services'
+              <a href='/services'
                 className='btn btn-secondary btn-lg shadow'
               >
                 All Services
-              </Link>
+              </a>
             </div>
             <div className='col-xl-8 mb-15'>
               <Slider
@@ -100,12 +98,12 @@ class ServicesSliderSection extends Component {
                     <div className='icon-content'>
                       <h3 className='ttr-title'>Diagnostics</h3>
                       <p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
-                      <Link
-                        to='/service-detail'
+                      <a
+                        href='/service-detail'
                         className='btn btn-primary light'
                       >
                         View More
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -134,12 +132,12 @@ class ServicesSliderSection extends Component {
                     <div className='icon-content'>
                       <h3 className='ttr-title'>Treatment</h3>
                       <p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
-                      <Link
-                        to='/service-detail'
+                      <a
+                        href='/service-detail'
                         className='btn btn-primary light'
                       >
                         View More
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -168,12 +166,12 @@ class ServicesSliderSection extends Component {
                     <div className='icon-content'>
                       <h3 className='ttr-title'>Surgery</h3>
                       <p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
-                      <Link
-                        to='/service-detail'
+                      <a
+                        href='/service-detail'
                         className='btn btn-primary light'
                       >
                         View More
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -202,12 +200,12 @@ class ServicesSliderSection extends Component {
                     <div className='icon-content'>
                       <h3 className='ttr-title'>Vaccine</h3>
                       <p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
-                      <Link
-                        to='/service-detail'
+                      <a
+                        href='/service-detail'
                         className='btn btn-primary light'
                       >
                         View More
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -236,12 +234,12 @@ class ServicesSliderSection extends Component {
                     <div className='icon-content'>
                       <h3 className='ttr-title'>Emergency</h3>
                       <p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
-                      <Link
-                        to='/service-detail'
+                      <a
+                        href='/service-detail'
                         className='btn btn-primary light'
                       >
                         View More
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>

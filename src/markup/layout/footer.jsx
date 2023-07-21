@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import {Link} from "react-router-dom";
 
 // Images
 import Logo from "../../images/logo.png";
@@ -29,12 +28,12 @@ class aboutSection extends Component {
                 <div className='col-xl-6 col-lg-6 col-md-6'>
                   <div className='widget widget_info'>
                     <div className='footer-logo'>
-                      <Link to='/'>
+                     <a href='/'>
                         <img
                           src={Logo}
                           alt=''
                         />
-                      </Link>
+                      </a>
                     </div>
                     <div className='ft-contact'>
                       <p>
@@ -59,24 +58,24 @@ class aboutSection extends Component {
                     <h3 className='footer-title'>Quick Links</h3>
                     <ul>
                       <li>
-                        <Link to='/about-us'>
+                       <a href='/about-us'>
                           <span>About Us</span>
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to='/services'>
+                       <a href='/services'>
                           <span>Services</span>
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to='/booking'>
+                       <a href='/booking'>
                           <span>Booking</span>
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to='/blogs'>
+                       <a href='/blogs'>
                           <span>blogs</span>
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   </div>

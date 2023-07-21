@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import { Link } from 'react-router-dom';
 
 // Import Images
 import bnrImg1 from "../../images/banner/img1.jpg";
@@ -104,7 +103,7 @@ class BlogGrid extends Component{
 									<h1>Blog Grid 3</h1>
 									<nav aria-label="breadcrumb" className="breadcrumb-row">
 										<ul className="breadcrumb">
-											<li className="breadcrumb-item"><Link to="/"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg> Home</Link></li>
+											<li className="breadcrumb-item"><a href="/"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg> Home</a></li>
 											<li className="breadcrumb-item active" aria-current="page">Blog Grid 3</li>
 										</ul>
 									</nav>
@@ -123,15 +122,15 @@ class BlogGrid extends Component{
 									<div className="col-xl-4 col-md-6">
 										<div className="blog-card mb-30">
 											<div className="post-media">
-												<Link to="/blog-details"><img src={item.thumb} alt=""/></Link>
+												<a href="/blog-details"><img src={item.thumb} alt=""/></a>
 											</div>
 											<div className="post-info">
 												<ul className="post-meta">
-													<li className="author"><Link to="/blog-details"><img src={item.authorPic} alt=""/> {item.author}</Link></li>
+													<li className="author"><a href="/blog-details"><img src={item.authorPic} alt=""/> {item.author}</a></li>
 													<li className="date"><i className="far fa-calendar-alt"></i> {item.date}</li>
 												</ul>
-												<h4 className="post-title"><Link to="/blog-details">{item.title}</Link></h4>		
-												<Link to="/blog-details" className="btn btn-outline-primary btn-sm">Read More <i className="btn-icon-bx fas fa-chevron-right"></i></Link>		
+												<h4 className="post-title"><a href="/blog-details">{item.title}</a></h4>		
+												<a href="/blog-details" className="btn btn-outline-primary btn-sm">Read More <i className="btn-icon-bx fas fa-chevron-right"></i></a>		
 											</div>
 										</div>							
 									</div>
@@ -141,11 +140,11 @@ class BlogGrid extends Component{
 								<div className="col-lg-12">
 									<div className="pagination-bx text-center mb-30 clearfix">
 										<ul className="pagination">
-											<li className="previous"><Link to="#">Prev</Link></li>
-											<li className="active"><Link to="#">1</Link></li>
-											<li><Link to="#">2</Link></li>
-											<li><Link to="#">3</Link></li>
-											<li className="next"><Link to="#">Next</Link></li>
+											<li className="previous"><a href="#">Prev</a></li>
+											<li className="active"><a href="#">1</a></li>
+											<li><a href="#">2</a></li>
+											<li><a href="#">3</a></li>
+											<li className="next"><a href="#">Next</a></li>
 										</ul>
 									</div>
 								</div>

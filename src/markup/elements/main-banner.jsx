@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 // Import Images
 import bg1 from '../../images/main-banner/bg1.jpg';
-import doctorImg from '../../images/main-banner/doctor.png';
+import doctorImg from '../../images/main-banner/doctor.jpg';
 import ptImg1 from '../../images/shap/trangle-orange.png';
 import ptImg2 from '../../images/shap/square-blue.png';
 import ptImg3 from '../../images/shap/chicle-blue-2.png';
@@ -21,7 +20,7 @@ class aboutSection extends Component{
 							<div className="col-lg-7 col-md-6 col-sm-7">
 								<h6 className="title-ext text-primary">We Provide All Health Care Solution</h6>
 								<h2>Hospitals, Nursing Stations in the North</h2>
-								<Link to="#about-us" className="btn btn-secondary btn-lg shadow">Get in touch</Link>
+								<a href="#about-us" className="btn btn-secondary btn-lg shadow">Get in touch</a>
 							</div>
 							<div className="col-lg-5 col-md-6 col-sm-5">
 								<div className="banner-img">

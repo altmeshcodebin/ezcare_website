@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import Slider from "react-slick";
 
 // Import Images
@@ -63,15 +62,15 @@ const NewsItem = ({ item }) => {
 		<div className="slider-item">
 			<div className="blog-card">
 				<div className="post-media">
-					<Link to="/blog-details"><img src={item.thumb} alt=""/></Link>
+					<a href="/blog-details"><img src={item.thumb} alt=""/></a>
 				</div>
 				<div className="post-info">
 					<ul className="post-meta">
-						<li className="author"><Link to="/blog-details"><img src={item.authorPic} alt=""/>{item.author}</Link></li>
+						<li className="author"><a href="/blog-details"><img src={item.authorPic} alt=""/>{item.author}</a></li>
 						<li className="date"><i className="far fa-calendar-alt"></i>{item.date}</li>
 					</ul>
-					<h5 className="post-title"><Link to="/blog-details">{item.title}</Link></h5>		
-					<Link to="/blog-details" className="btn btn-outline-primary btn-sm">Read More <i className="btn-icon-bx fas fa-chevron-right"></i></Link>
+					<h5 className="post-title"><a href="/blog-details">{item.title}</a></h5>		
+					<a href="/blog-details" className="btn btn-outline-primary btn-sm">Read More <i className="btn-icon-bx fas fa-chevron-right"></i></a>
 				</div>
 			</div>	
 		</div>

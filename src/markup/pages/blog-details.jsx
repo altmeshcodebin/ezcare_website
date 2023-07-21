@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
 
 // Elements
 import AuthorProfile from "../elements/author-profile";
@@ -36,7 +35,7 @@ class BlogDetails extends Component{
 									<h1>Blog Details</h1>
 									<nav aria-label="breadcrumb" className="breadcrumb-row">
 										<ul className="breadcrumb">
-											<li className="breadcrumb-item"><Link to="/"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg> Home</Link></li>
+											<li className="breadcrumb-item"><a href="/"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg> Home</a></li>
 											<li className="breadcrumb-item active" aria-current="page">Blog Details</li>
 										</ul>
 									</nav>
@@ -58,7 +57,7 @@ class BlogDetails extends Component{
 										</div>
 										<div className="info-bx">
 											<ul className="post-meta">
-												<li className="author"><Link to="/blog-details"><img src={testPic3} alt=""/> Sonar Moyna</Link></li>
+												<li className="author"><a href="/blog-details"><img src={testPic3} alt=""/> Sonar Moyna</a></li>
 												<li className="date"><i className="far fa-calendar-alt"></i> 19 July 2021</li>
 											</ul>
 											<div className="ttr-post-title">
@@ -80,9 +79,9 @@ class BlogDetails extends Component{
 											<div className="ttr-post-footer">
 												<div className="post-tags">
 													<strong>Tags:</strong>
-													<Link to="#">Health</Link> 
-													<Link to="#">Growth</Link> 
-													<Link to="#">Life</Link> 
+													<a href="#">Health</a> 
+													<a href="#">Growth</a> 
+													<a href="#">Life</a> 
 												</div>
 												<div className="share-post ml-auto">
 													<ul className="social-media mb-0">
