@@ -18,6 +18,7 @@ class Markup extends Component{
 				<Header />
 				<Index />
 				<Footer />
+				<PageScrollTop />
 				<BackToTop />
 				
 			</>

@@ -38,13 +38,16 @@ class ServicesSliderSection extends Component {
             <div className='col-xl-4 col-lg-7 mb-30'>
               <div className='heading-bx'>
                 <h6 className='title-ext text-secondary'>Home Care Done Right</h6>
-                <h2 className='title text-primary'>Personalized Attention for All Your Health Related Needs</h2>
+                <h2 className='title text-primary'>
+                  Personalized Attention for All Your Health Related Needs
+                </h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur. Dolor eget arcu adipiscing lacinia tellus
                   pellentesque. Nibh turpis elementum amet amet in pharetra accumsan mi.
                 </p>
               </div>
-              <a href='/services'
+              <a
+                href='#'
                 className='btn btn-secondary btn-lg shadow'
               >
                 All Services
@@ -99,7 +102,7 @@ class ServicesSliderSection extends Component {
                       <h3 className='ttr-title'>Diagnostics</h3>
                       <p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
                       <a
-                        href='/service-detail'
+                        href='#'
                         className='btn btn-primary light'
                       >
                         View More
@@ -133,7 +136,7 @@ class ServicesSliderSection extends Component {
                       <h3 className='ttr-title'>Treatment</h3>
                       <p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
                       <a
-                        href='/service-detail'
+                        href='#'
                         className='btn btn-primary light'
                       >
                         View More
@@ -167,7 +170,7 @@ class ServicesSliderSection extends Component {
                       <h3 className='ttr-title'>Surgery</h3>
                       <p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
                       <a
-                        href='/service-detail'
+                        href='#'
                         className='btn btn-primary light'
                       >
                         View More
@@ -201,7 +204,7 @@ class ServicesSliderSection extends Component {
                       <h3 className='ttr-title'>Vaccine</h3>
                       <p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
                       <a
-                        href='/service-detail'
+                        href='#'
                         className='btn btn-primary light'
                       >
                         View More
@@ -235,7 +238,7 @@ class ServicesSliderSection extends Component {
                       <h3 className='ttr-title'>Emergency</h3>
                       <p>Phasellus venenatis porta rhoncus. Integer et viverra felis.</p>
                       <a
-                        href='/service-detail'
+                        href='#'
                         className='btn btn-primary light'
                       >
                         View More

@@ -62,15 +62,15 @@ const NewsItem = ({ item }) => {
 		<div className="slider-item">
 			<div className="blog-card">
 				<div className="post-media">
-					<a href="/blog-details"><img src={item.thumb} alt=""/></a>
+					<a href="#"><img src={item.thumb} alt=""/></a>
 				</div>
 				<div className="post-info">
 					<ul className="post-meta">
-						<li className="author"><a href="/blog-details"><img src={item.authorPic} alt=""/>{item.author}</a></li>
+						<li className="author"><a href="#"><img src={item.authorPic} alt=""/>{item.author}</a></li>
 						<li className="date"><i className="far fa-calendar-alt"></i>{item.date}</li>
 					</ul>
-					<h5 className="post-title"><a href="/blog-details">{item.title}</a></h5>		
-					<a href="/blog-details" className="btn btn-outline-primary btn-sm">Read More <i className="btn-icon-bx fas fa-chevron-right"></i></a>
+					<h5 className="post-title"><a href="#">{item.title}</a></h5>		
+					<a href="#" className="btn btn-outline-primary btn-sm">Read More <i className="btn-icon-bx fas fa-chevron-right"></i></a>
 				</div>
 			</div>	
 		</div>

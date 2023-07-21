@@ -28,7 +28,7 @@ class aboutSection extends Component {
                 <div className='col-xl-6 col-lg-6 col-md-6'>
                   <div className='widget widget_info'>
                     <div className='footer-logo'>
-                     <a href='/'>
+                      <a href='#'>
                         <img
                           src={Logo}
                           alt=''
@@ -58,22 +58,22 @@ class aboutSection extends Component {
                     <h3 className='footer-title'>Quick Links</h3>
                     <ul>
                       <li>
-                       <a href='/about-us'>
+                        <a href='#'>
                           <span>About Us</span>
                         </a>
                       </li>
                       <li>
-                       <a href='/services'>
+                        <a href='#'>
                           <span>Services</span>
                         </a>
                       </li>
                       <li>
-                       <a href='/booking'>
+                        <a href='#'>
                           <span>Booking</span>
                         </a>
                       </li>
                       <li>
-                       <a href='/blogs'>
+                        <a href='#'>
                           <span>blogs</span>
                         </a>
                       </li>
@@ -167,7 +167,7 @@ class aboutSection extends Component {
                   <p className='copyright-text'>
                     Copyright © 2023 Design & Developed by{" "}
                     <a
-                      href='https://themeforest.net/user/themetrades'
+                      href='#'
                       rel='noreferrer'
                       target='_blank'
                       className='text-secondary'

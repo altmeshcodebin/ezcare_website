@@ -99,7 +99,7 @@ class aboutSection extends Component{
 										</div>
 									</div>
 								</div>
-								<a href="/about-us" className="btn btn-primary shadow">Read More</a>
+								<a href="#" className="btn btn-primary shadow">Read More</a>
 							</div>
 						</div>
 					</div>
